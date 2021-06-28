@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticsearchProvider", "ElasticsearchProvider\ElasticsearchProvider.csproj", "{A9A78595-F5B5-49F5-95FF-C48ADCC6501E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticsearchProviderExample", "ElasticsearchProviderExample\ElasticsearchProviderExample.csproj", "{3FDF89F7-0976-43D5-82B1-B102BC90593D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A9A78595-F5B5-49F5-95FF-C48ADCC6501E} = {A9A78595-F5B5-49F5-95FF-C48ADCC6501E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9A78595-F5B5-49F5-95FF-C48ADCC6501E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A78595-F5B5-49F5-95FF-C48ADCC6501E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A78595-F5B5-49F5-95FF-C48ADCC6501E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A78595-F5B5-49F5-95FF-C48ADCC6501E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FDF89F7-0976-43D5-82B1-B102BC90593D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDF89F7-0976-43D5-82B1-B102BC90593D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDF89F7-0976-43D5-82B1-B102BC90593D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDF89F7-0976-43D5-82B1-B102BC90593D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04E5EFA6-7287-42CB-815C-65EC595024E8}
+	EndGlobalSection
+EndGlobal
